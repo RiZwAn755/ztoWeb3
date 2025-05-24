@@ -1,0 +1,114 @@
+.resources-wrapper {
+    padding: 60px 30px;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .resources-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #333;
+    animation: slideIn 1s ease;
+  }
+  
+  .resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    width: 100%;
+    max-width: 1300px;
+  }
+  
+  .resource-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .resource-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Different card border colors */
+  .color0 { border-top: 5px solid #6a11cb; }
+  .color1 { border-top: 5px solid #ff6a00; }
+  .color2 { border-top: 5px solid #00b09b; }
+  .color3 { border-top: 5px solid #ff3c3c; }
+  .color4 { border-top: 5px solid #4facfe; }
+  
+  .grade-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #4e4cf4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .subject-dropdown {
+    margin-top: 15px;
+    animation: fadeInDropdown 0.6s ease forwards;
+  }
+  
+  .subject-title {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    background: linear-gradient(90deg, #f9f9ff, #e0eafc);
+    border-radius: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .subject-title:hover {
+    background: linear-gradient(90deg, #d0e1ff, #ffd1dc);
+  }
+  
+  .subtopics-list {
+    padding: 12px 15px;
+    margin: 8px 0 16px 0;
+    background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
+    border-radius: 10px;
+    color: #333;
+    font-size: 15px;
+    animation: expandHeight 0.5s ease forwards;
+  }
+  
+  /* Animations */
+  @keyframes fadeInDropdown {
+    from { opacity: 0; transform: translateY(-10px);}
+    to { opacity: 1; transform: translateY(0);}
+  }
+  
+  @keyframes expandHeight {
+    0% { max-height: 0; opacity: 0; }
+    100% { max-height: 200px; opacity: 1; }
+  }
+  
+  @keyframes slideIn {
+    0% { transform: translateY(-30px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+  }
+  
+  /* Responsive Tweaks */
+  @media (max-width: 600px) {
+    .resources-title {
+      font-size: 2.2rem;
+    }
+  }
+  

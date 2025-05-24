@@ -1,0 +1,77 @@
+/* Navbar.css */
+.navbar {
+  background: rgba(255, 255, 255, 0.6); /* semi-transparent white */
+  backdrop-filter: blur(10px); /* glass effect */
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: background-color 0.5s ease-in-out, backdrop-filter 0.5s ease-in-out;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo h1 {
+  font-size: 28px;
+  color: #6A0DAD;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: #6A0DAD;
+  transform: scale(1.05);
+}
+
+.navbar-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.login-btn,
+.getstarted-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.login-btn {
+  background-color: transparent;
+  color: #6A0DAD;
+  border: 2px solid #6A0DAD;
+}
+
+.getstarted-btn {
+  background-color: #6A0DAD;
+  color: #fff;
+}
+
+.login-btn:hover {
+  background-color: #6A0DAD;
+  color: #fff;
+}
+
+.getstarted-btn:hover {
+  background-color: #531f9c;
+}

@@ -1,0 +1,86 @@
+.footer {
+    background-color: #fff;
+    padding: 30px 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .footer-left img.logo {
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-left p {
+    font-size: 12px;
+  }
+  
+  .footer-center {
+    display: flex;
+    gap: 60px;
+  }
+  
+  .footer-center h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-center p {
+    margin: 6px 0;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .btn-register {
+    background-color: #4f3ff0;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .btn-outline {
+    border: 1px solid #4f3ff0;
+    color: #4f3ff0;
+    background: white;
+    padding: 6px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .footer-bottom {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-bottom p {
+    font-size: 13px;
+  }
+  
+  .social-icons i {
+    font-size: 16px;
+    color: #444;
+    margin-left: 12px;
+    cursor: pointer;
+  }
+  
+  /* Optional: Add hover effect */
+  .social-icons i:hover {
+    color: #4f3ff0;
+  }
+  

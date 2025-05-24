@@ -1,0 +1,119 @@
+.mission-container {
+    padding: 60px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafafa;
+  }
+  
+  .mission-left,
+  .mission-right {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .mission-left {
+    flex: 1;
+    padding-right: 30px;
+  }
+  
+  .mission-left h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 16px;
+  }
+  
+  .mission-left p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .mission-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mission-card {
+    border: 1px solid #ccc;
+    background: #fff;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .mission-image-placeholder {
+    height: 200px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    color: #777;
+  }
+  
+  .mission-content {
+    padding: 20px;
+  }
+  
+  .mission-content h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .mission-content p {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.5;
+  }
+  
+  .mission-button-wrapper {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .mission-button {
+    background-color: #4f46e5;
+    color: #fff;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .mission-button:hover {
+    background-color: #3730a3;
+  }
+  .mission-image-placeholder img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .mission-image-placeholder {
+    width: 100%;
+    height: 220px; /* Or adjust depending on your design */
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mission-image-placeholder img.mission-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ensures image covers entire box without distortion */
+    border-radius: 10px;
+  }
+  
