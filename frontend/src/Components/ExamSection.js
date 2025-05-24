@@ -9,6 +9,7 @@ const categories = [
 
 const subjects = [
   { name: 'Math', desc: 'Sky was cloudless and of a deep dark blue spectacle before us was indeed.', icon: '/Red_Atom.png' },
+  { name: 'Chemistry', desc: 'A small line of blind text by the name.', icon: '/Red_Atom.png' },
   { name: 'English', desc: 'Even the all-powerful Pointing has no control...', icon: '/Red_Atom.png' },
   { name: 'Science', desc: 'One day however a small line of blind text.', icon: '/Red_Atom.png' },
   { name: 'Physics', desc: 'A small line of blind text by the name.', icon: '/Red_Atom.png' },
