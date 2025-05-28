@@ -22,6 +22,11 @@ const teamMembers = [
     role: "Marketing Head and Co-Founder",
     image: "/OurTeams.jpg",
   },
+  {
+    name: "MD Furkan",
+    role: "Udaka Dal",
+    image: "/OurTeams.jpg",
+  },
 ];
 
 const Team = () => {
